@@ -15,7 +15,7 @@ public class NaturalNumberSum {
     
     public static void main(String[] args) {
         NaturalNumberSum calculator = new NaturalNumberSum();
-        int n = 10; // Change this value to the desired number of natural numbers
+        int n = 10;
         int sum = calculator.calculateSum(n);
         System.out.println("The sum of the first " + n + " natural numbers divisible by 3 or 5 is: " + sum);
     }

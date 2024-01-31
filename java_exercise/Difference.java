@@ -16,7 +16,7 @@ public class DifferenceCalculator {
     
     public static void main(String[] args) {
         DifferenceCalculator calculator = new DifferenceCalculator();
-        int n = 10; // Change this value to the desired number of natural numbers
+        int n = 10;
         int difference = calculator.calculateDifference(n);
         System.out.println("The difference between the sum of the squares and the square of the sum of the first " + n + " natural numbers is: " + difference);
     }
